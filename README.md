@@ -1,43 +1,44 @@
-# Mostrar Texto de un Campo en una Etiqueta en Java
+# Botón JavaFX con Mensaje en Consola
 
 ## Descripción
 
-Este proyecto consiste en desarrollar una aplicación en **Java** con una interfaz gráfica que incluye un **campo de texto**, una **etiqueta** y un **botón**. Al pulsar el botón, el contenido escrito por el usuario en el campo de texto se mostrará automáticamente en la etiqueta.
+Este proyecto amplía una aplicación básica desarrollada en **JavaFX** añadiendo funcionalidad al botón. Al hacer clic sobre el botón **"Haz clic aquí"**, se ejecuta un evento que muestra un mensaje en la consola.
 
-El objetivo del ejercicio es practicar la interacción entre componentes gráficos y la gestión de eventos mediante **Swing**.
+El objetivo del ejercicio es practicar el manejo de eventos y la interacción con componentes gráficos en **JavaFX**.
 
 ## Objetivos
 
-- Crear una interfaz gráfica sencilla.
-- Añadir un campo de texto y una etiqueta.
-- Implementar un botón con eventos.
-- Transferir información entre componentes.
-- Actualizar el contenido de una etiqueta dinámicamente.
+- Crear una interfaz gráfica básica con JavaFX.
+- Añadir un botón a la ventana principal.
+- Implementar eventos asociados al botón.
+- Mostrar mensajes en la consola tras una interacción.
+- Comprender el uso de eventos en JavaFX.
 
-## Estructura del proyecto
+## Funcionamiento
+
+1. Se inicia la aplicación.
+2. Se muestra una ventana con un botón:
 
 ```text
-Proyecto/
-│
-├── src/
-│   └── Main.java
-│
-└── README.md
+Haz clic aquí
 ```
 
-## Ejemplo de uso
+3. El usuario pulsa el botón.
+4. Se ejecuta un evento asociado.
+5. Se muestra un mensaje en la consola.
 
-Estado inicial:
+## Ejemplo de interfaz
 
 ```text
-Texto: [Hola]
-
-        [ Mostrar ]
-Etiqueta:
++----------------------------------+
+|                                  |
+|        [ Haz clic aquí ]         |
+|                                  |
++----------------------------------+
 ```
 
-Después de pulsar:
+Salida en consola al pulsarlo:
 
 ```text
-Etiqueta: Hola
+Botón pulsado correctamente.
 ```
